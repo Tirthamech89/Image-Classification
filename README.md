@@ -20,3 +20,7 @@ For Further Information follow the below Link:
 Link: https://datahack.analyticsvidhya.com/contest/practice-problem-intel-scene-classification-challe/
 
 # Different Method of Image Classification:
+
+Transfer Learning: Taking the advantage of open sourced model trained on imagenet data
+
+Transfer Learning Type1_ResNet50.ipynb: ResNet50 is a 50 layer Residual Network. Keras consists of this pre-trained model. I have used this model to generate features of the images of training data set. These features have been used as a input for Multi layer Neural Netowrk model to classify the category of natural scene
